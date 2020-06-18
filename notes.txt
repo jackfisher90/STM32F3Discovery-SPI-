@@ -1,8 +1,0 @@
- - Compass Address = 0011110
- - Accel address = 0011001
-
-
- Periph_base = 0x40000000U
- periph_bas_apb2 = 0x10000 + Periph_base
- usart1_base = periph_bas_apb2 + 0x3800
- rdr = usart1_base + 0x24
